@@ -10,4 +10,4 @@ RUN cd /build/GoWebAPI && go build
 
 EXPOSE 8080
 
-ENTRYPOINT [ "/build/GoWebAPI" ]
+ENTRYPOINT [ "/build/GoWebAPI/go-api" ]
